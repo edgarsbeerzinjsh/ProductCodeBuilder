@@ -1,0 +1,49 @@
+{
+  "varieties": [
+    {
+      "code": "SIZE",
+      "description": "Izmērs",
+      "options": [
+        {"code": "S", "description": "Small"},
+        {"code": "M", "description": "Medium"},
+        {"code": "L", "description": "Large"}
+      ]
+    },
+    {
+      "code": "COLOR",
+      "description": "Krāsa",
+      "options": [
+        {"code": "RED", "description": "Sarkans"},
+        {"code": "BLU", "description": "Zils"},
+        {"code": "WHI", "description": "Balts"}
+      ]
+    },
+    {
+      "code": "PRODUCED",
+      "description": "Ražošanas gads",
+      "options": [
+        {"code": "1980", "description": "1980"},
+        {"code": "1990", "description": "1990"},
+        {"code": "2000", "description": "2000"},
+        {"code": "2010", "description": "2010"}
+      ]
+    }
+  ],
+  "items": [
+    {
+      "code": "11111", 
+      "description": "Bumba",
+      "varieties": [ "COLOR", "SIZE", "PRODUCED" ]
+    },
+    {
+      "code": "22222", 
+      "description": "T-krekls",
+      "varieties": [ "SIZE" ]
+    },
+    {
+      "code": "33333", 
+      "description": "Lietussargs",
+      "varieties": []
+    }
+  ]
+}
