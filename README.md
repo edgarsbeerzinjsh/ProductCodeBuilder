@@ -1,4 +1,4 @@
-# ProductCodeBuilder 
+# ProductCodeBuilder
 
 Author: Edgars Berzins
 
