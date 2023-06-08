@@ -1,4 +1,4 @@
-REM Check if node_modules directory exists in the react folder
+REM Check if node_modules directory exists in the folder
 if not exist "node_modules" (
     echo npm dependencies not found. Installing dependencies...
     call npm install
@@ -6,6 +6,4 @@ if not exist "node_modules" (
     echo npm dependencies are already installed
 )
 
-start cmd /k node index.js
-
-start "" "http://localhost:3000"
+start npm start
