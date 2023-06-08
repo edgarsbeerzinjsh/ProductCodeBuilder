@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10px auto auto auto;
+    padding: 8px;
+    border: solid 2px darkblue;
+    border-radius: 16px;
+    background-color: rgb(223, 253, 223);
+}
+
+.data-file {
+    padding-top: 16px;
+    font-size: medium;
+}
+
+.current-data-file {
+    text-transform: none;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.change-data-file {
+    font-size: small;
+    margin: 2px auto;
+    position: relative;
+    width: fit-content;
+    border: solid 2px black;
+    border-radius: 8px;
+    background-color: #e9e9ed;
+    padding: 2px;
+    &:hover {
+        background-color: rgb(203, 203, 209);
+        transition: 0.5s;
+    }
+
+    input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+.item-selector {
+    padding-top: 16px;
+    font-size: medium;
+
+    div {
+        columns: 2;
+        margin-bottom: 8px; 
+    }
+}
+
+.product-code {
+    padding-top: 16px;
+    font-size: medium;
+
+    p {
+        font-size: 28px;
+        font-weight: 700;
+        color: darkblue;
+    }
+
+    button {
+        font-size: large;
+    }
+}
