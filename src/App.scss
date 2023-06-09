@@ -53,8 +53,10 @@
     font-size: medium;
 
     div {
-        columns: 2;
-        margin-bottom: 8px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 8px;
     }
 }
 
